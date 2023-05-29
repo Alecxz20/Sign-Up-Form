@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Odin Project | Sign up form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <h2 class="header__title">Mybot &#174;</h2>
+      <figure>
+        <img
+          src="./img/undraw_app_installation_re_h36x.svg"
+          alt="hero image: plants"
+          class="header__img"
+        />
+      </figure>
+      <p class="header__text">Sign up today!</p>
+    </header>
+    <main>
+      <div class="container">
+        <form action="#">
+          <ul class="form">
+            <li class="form__title">
+              <h1>Get started</h1>
+            </li>
+            <li>
+              <p class="box">
+                <label for="first-name"></label>
+                <input type="text" id="first-name" required />
+                <span class="box__placeholder">First name</span>
+              </p>
+            </li>
+            <li>
+              <p class="box">
+                <label for="last-name"></label>
+                <input type="text" id="last-name" required />
+                <span class="box__placeholder">Last name</span>
+              </p>
+            </li>
+            <li>
+              <p class="box">
+                <label for="user-email"></label>
+                <input type="email" id="user-email" required />
+                <span class="box__placeholder">Email</span>
+              </p>
+            </li>
+
+            <li>
+              <p class="box">
+                <label for="phonenumber"></label>
+                <input type="tel" id="phonenumber" required />
+                <span class="box__placeholder">Phone number</span>
+              </p>
+            </li>
+            <li>
+              <p class="box">
+                <label for="user-password"></label>
+                <input type="password" id="user-password" required />
+                <span class="box__placeholder">Password</span>
+              </p>
+            </li>
+            <li>
+              <p class="box">
+                <label for="confirm-password"></label>
+                <input type="password" id="confirm-password" required />
+                <span class="box__placeholder">Confirm password</span>
+              </p>
+            </li>
+            <li>
+              <button>Create Account</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
